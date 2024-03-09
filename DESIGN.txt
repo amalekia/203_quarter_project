@@ -1,0 +1,8 @@
+1) getImages could be in ImageStore class because it uses the ImageStore attributes, however it felt more comfortable
+to leave it in Functions since it didnt really make that much of a difference.
+
+2) getNumFromRange can be in multiple classes since it doesnt really have any special variables. However it can also
+remain static in the functions, so it really can have a place anywhere. I put it in entity since it uses it the most.
+
+3) moveEntity could either be in WorldModel or entity since it uses both in its parameters and both drive the code,
+however I chose for it to be in Entity since it felt better to put it there. Mainly because of its name.
